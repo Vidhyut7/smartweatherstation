@@ -11,7 +11,7 @@ from pydantic import BaseModel
 from datetime import datetime
 
 # Database Configuration
-DATABASE_URL = "mysql+pymysql://root:S6A5VXdm5800#@localhost/weather_station"
+DATABASE_URL = "mysql+pymysql://root:mypassword#@localhost/weather_station"
 
 # SQLAlchemy setup
 engine = create_engine(DATABASE_URL)
